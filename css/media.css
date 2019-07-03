@@ -1,4 +1,4 @@
-
+ 
 @media (max-width: 1199px) {
 	.navbar-nav .nav-link{
 		font-size: 12px;
@@ -86,6 +86,10 @@ height: 50vh }
  .simple-step-img{
  	display: none;
  }
+ .transection .container{
+ 	width: 100% !important;
+ 	max-width: 100%;
+ }
 }
 @media (max-width: 575px) { 
 	.top-info{
@@ -128,3 +132,29 @@ height: 50vh }
 
 margin-bottom: 35px;
  }
+ .transection ul li{
+ 	width: 50%;
+ 	margin-bottom: 30px; 
+ }
+ .top-left{
+ 	left: -80%;
+ }
+   .bottom-left{
+ 	left: -80%;
+ }
+  .top-right{
+ 	right: -80%;
+ }
+   .bottom-right{
+ 	right: -80%;
+ }
+}
+@media (max-width: 350px) {
+	.transection ul li{
+ 	width: 100%;
+ 
+ }
+ .icon{
+ 	display: none;
+ }
+}
