@@ -307,4 +307,127 @@ margin: 25px 0;
  }
 
 
+.transection{
+	background-color: #ff9b1a;
+	padding: 50px 0;
+}
+.transection ul{}
 
+.transection ul li{
+	color: #fff; 
+}
+
+.transection ul li h6{
+	margin-bottom: 0;
+	font-size: 1.25rem;
+}
+
+
+.transection ul li span{
+	font-size: 12px;
+	text-transform: uppercase;
+}
+.bitcoin-section{
+	padding: 80px 0;
+}
+.bitcoin{
+	position: relative;
+	text-align: center;
+	padding: 80px 0; 
+}
+.bitcoin img{
+	display: block;
+	margin: auto; 
+}
+.icon{
+	text-align: center;
+}
+.icon span{
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	line-height: 40px;
+	border-radius: 3px;
+	position: relative;
+	margin-bottom: 10px;
+
+} 
+.icon span:before{
+	content: "";
+	position: absolute;
+	border: 2px solid; 
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	transform: rotate(45deg);
+	border-radius: 6px;
+}
+.icon i{
+	font-size: 12px;
+}
+.icon strong{
+	font-size: 14px;
+	color: #252525;
+	display: block;
+}
+.red{
+	color: #f05154;
+}
+.green{
+	color: seagreen;
+}
+.blue{
+	color: blue;
+}
+.top-left{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.middle-left{
+	position: absolute;
+	top: 50%;
+	left: -60px;
+	transform: translate(-60px,-50%);
+}
+.bottom-left{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.top-right{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.middle-right{
+	position: absolute;
+	right: -60px;
+	top: 50%;
+	transform: translate(60px,-50%);
+}
+.bottom-right{
+	position: absolute;
+	right: 0;
+	bottom: 0; 
+}
+.contact-section{
+
+	background: #000000 url(../images/contact_img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+}
+
+
+.contact-section .form-control{
+	color: #ffffff;
+	background-color: #fff0;
+	background-clip: padding-box;
+	border:1px solid #ced4daa1; 
+}
+.contact-section .form-control:focus{
+	background-color: blue;
+}
